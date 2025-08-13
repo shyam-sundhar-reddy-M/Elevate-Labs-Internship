@@ -1,0 +1,111 @@
+<!-- projects.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<section class="contact-hero">
+    <div class="container">
+        <h1 class="page-title">My Projects</h1>
+        <p class="page-subtitle">Building solutions that matter</p>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Restaurant Management System</h3>
+                    <p>
+                        Created and implemented a role-based management system, featuring distinct modules for Customer, Waiter, Kitchen, and Manager roles to streamline restaurant operations.
+                    </p>
+                    <ul style="color: #b8c6db; margin: 1rem 0;">
+                        <li>Real-time table tracking and order processing</li>
+                        <li>Reduced order completion time by 25%</li>
+                        <li>Optimized PostgreSQL queries</li>
+                        <li>Increased customer satisfaction by 10%</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>JavaFX</span>
+                        <span>PostgreSQL</span>
+                        <span>JDBC</span>
+                        <span>IntelliJ IDEA</span>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <a href="https://github.com/shyam-sundhar-reddy-M/Restaurant-Management-System" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3>E-commerce Web Application</h3>
+                    <p>
+                        Developed a full-stack e-commerce platform with product listings, shopping cart, order management, and user authentication.
+                    </p>
+                    <ul style="color: #b8c6db; margin: 1rem 0;">
+                        <li>Product categorization system</li>
+                        <li>Custom admin functionalities</li>
+                        <li>Secure user authentication</li>
+                        <li>Clean architecture and smooth UX</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>HTML</span>
+                        <span>CSS (Tailwind CSS)</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <a href="https://github.com/shyam-sundhar-reddy-M/E-commerce-Web-App" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Website (This Site!)</h3>
+                    <p>A modern, responsive portfolio website built with Flask, featuring stunning animations and interactive elements.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul style="color: #b8c6db; margin: 1rem 0;">
+                        <li>Particle animation background</li>
+                        <li>Responsive design</li>
+                        <li>Contact form with validation</li>
+                        <li>Modern UI/UX with animations</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>Jinja2</span>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <a href="https://github.com/shyam-sundhar-reddy-M" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
